@@ -16,6 +16,14 @@ app.get('/drinks',(req,res) =>{
     res.render('drinks_index.ejs',{allDrinks:drinks});
 });
 
+app.get('/drinks/:id',(req,res) =>{
+
+    let drink = req.params.id
+    console.log(drink)
+    res.send(drink);
+
+});
+
 app.listen(port, () => {
     console.log('listening on port', port);
 });
