@@ -14,7 +14,7 @@ app.get('/', (req,res) =>{
 
 app.get('/drinks',(req,res) =>{
     res.render('drinks_index.ejs',{allDrinks:drinks});
-})
+});
 
 app.listen(port, () => {
     console.log('listening on port', port);
