@@ -1,0 +1,24 @@
+{
+  "name": "gitpub",
+  "version": "1.0.0",
+  "description": "Practicing index and show routes with express and ejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GJJ52019/gitPub.git"
+  },
+  "author": "Gary Jenks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GJJ52019/gitPub/issues"
+  },
+  "homepage": "https://github.com/GJJ52019/gitPub#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
