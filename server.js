@@ -19,8 +19,9 @@ app.get('/drinks',(req,res) =>{
 app.get('/drinks/:id',(req,res) =>{
 
     let drink = req.params.id
-    console.log(drink)
-    res.send(drink);
+    res.render('drinks_show.ejs',{
+            drink: drinks[req.params.id]
+    });
 
 });
 
